@@ -131,16 +131,21 @@
   </style>
 </head>
 <body>
-    <button onclick="document.getElementById('bgMusic').play()">Нажми, чтобы включить музыку 🎶</button>
-
-<audio id="bgMusic" loop>
-  <source src="mm.mp3" type="audio/mpeg">
-</audio>
+    
   <header>
     <h1>💖 Our 3 months 💖</h1>
     <img src="malika2.jpg" alt="Малика" style="width: 700px; height: auto;">
   </header>
+<div style="text-align: center; margin-top: 20px;">
+  <button onclick="document.getElementById('bgMusic').play()" style="padding: 12px 25px; font-size: 18px; font-family: 'Dancing Script', cursive; background-color: #ff69b4; border: none; border-radius: 10px; color: white; cursor: pointer;">
+    Включи музыку 🎶
+  </button>
+</div>
 
+<audio id="bgMusic" loop>
+  <source src="mm.mp3" type="audio/mpeg">
+  Ваш браузер не поддерживает музыку.
+</audio>
   <main>
     <div class="memory">
       <h3>Album</h3>
